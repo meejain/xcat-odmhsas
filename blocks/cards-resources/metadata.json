@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-resources",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-01-28T10:24:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://odmhsas.webflow.io/resources",
+    "originPage": "resources landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "resource-cards",
+    "imagePattern": "card-images"
+  },
+  "contentPattern": {
+    "structure": "image + title + subtitle + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "resource listing pages",
+      "article card grids",
+      "link collections with images"
+    ],
+    "notSuitableFor": [
+      "product cards with pricing",
+      "team member cards",
+      "feature cards without images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/resources"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-28T10:24:00.000Z"
+  }
+}
