@@ -1,0 +1,19 @@
+{
+  "templates": [
+    {
+      "name": "resources-page",
+      "urls": ["https://odmhsas.webflow.io/resources"],
+      "description": "Resources landing page with hero and resource card grids",
+      "blocks": [
+        {
+          "name": "hero-resources",
+          "instances": ["header.section--hero .hero-wrapper.is-resources"]
+        },
+        {
+          "name": "cards-resources",
+          "instances": [".resources-grid.w-dyn-items"]
+        }
+      ]
+    }
+  ]
+}
